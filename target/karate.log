@@ -1,0 +1,8 @@
+15:13:37.062 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:13:37.200 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /Users/test/Eclipse%20Workspace/karatedemo/target/test-classes/examples/users/users.feature
+15:13:37.931 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+15:13:39.387 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1283
+15:13:39.686 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 222
+15:13:39.724 [main] INFO  com.intuit.karate.ScriptBridge - karate.env system property was: null 
+15:13:41.118 [main] DEBUG com.intuit.karate.StepDefs - response time in milliseconds: 1370
+15:13:41.131 [main] INFO  com.intuit.karate.StepDefs - [print] created id is: 11
