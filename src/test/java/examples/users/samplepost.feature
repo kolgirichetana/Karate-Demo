@@ -8,7 +8,7 @@ Feature: SamplePOST
     When method get
     Then status 200
 
-  @ORPHAN
+  @KBA-1 @OPEN
   Scenario: Check 201 response code
     Given url 'https://jsonplaceholder.typicode.com/users'
     And request user
