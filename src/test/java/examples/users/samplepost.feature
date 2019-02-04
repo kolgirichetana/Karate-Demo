@@ -7,3 +7,10 @@ Feature: SamplePOST
     Given path 'users'
     When method get
     Then status 200
+
+  @ORPHAN
+  Scenario: Check 201 response code
+    Given url 'https://jsonplaceholder.typicode.com/users'
+    And request user
+    When method post
+    Then status 201
